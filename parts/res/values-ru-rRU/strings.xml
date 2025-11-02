@@ -61,14 +61,6 @@
     <string name="auto_hbm_disable_time_title">Время выключения</string>
     <string name="auto_hbm_disable_time_summary">Продолжительность в секундах, по истечении которой HBM будет деактивирован, если порог освещенности упадет ниже установленного уровня</string>
 
-    <string name="game_bar_title">Игровая панель</string>
-    <string name="game_bar_summary">Включить системный оверлей (FPS, температура и т.д.)</string>
-    <string name="overlay_permission_required">Требуется разрешение на отображение поверх других приложений</string>
-    <string name="overlay_permission_granted">Разрешение на отображение поверх других приложений предоставлено</string>
-    <string name="overlay_permission_denied">В разрешении на отображение поверх других приложений отказано</string>
-    <string name="game_bar_tile_label">Игровая панель</string>
-    <string name="game_bar_tile_description">Переключить игровой оверлей</string>
-
     <string name="charge_bypass_title">Прямое питание</string>
     <string name="charge_bypass_summary">Включить питание напрямую, в обход аккумулятора</string>
     <string name="charge_bypass_warning">Внимание: Прямое питание может привести к повышению температуры устройства или повреждению аккумулятора. Используйте с осторожностью.</string>
