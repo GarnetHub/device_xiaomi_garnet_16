@@ -38,4 +38,30 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+	
+	<!-- Whether or not to show the notification shelf that houses the icons of notifications that
+     have been scrolled off-screen. -->
+    <bool name="config_showNotificationShelf">false</bool>
+	
+    <!-- Whether or not the fade on the notification is based on the amount that it has been swiped
+         off-screen. -->
+    <bool name="config_fadeDependingOnAmountSwiped">true</bool>
+
+    <!-- Whether or not child notifications that are part of a group will have shadows. -->
+    <bool name="config_enableShadowOnChildNotifications">false</bool>
+
+    <!-- Whether or not the first expandable notification will be expanded automatically by the
+         system. This value only affects notifications that are not a group of notifications from
+         the same applications and when config_alwaysExpandNonGroupedNotifications is false. -->
+    <bool name="config_autoExpandFirstNotification">true</bool>
+
+    <!-- Whether or not an expandable notification can be manually expanded or collapsed by the
+         user. Grouped notifications are still expandable even if this value is false. -->
+    <bool name="config_enableNonGroupedNotificationExpand">true</bool>  
+	
+	<!-- Media controls -->
+    <bool name="config_mediaControlsTurbulenceByDefault">false</bool> 
+ 
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
 </resources>
