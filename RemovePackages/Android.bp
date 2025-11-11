@@ -1,0 +1,19 @@
+cc_prebuilt_binary {
+     name: "RemovePackages",
+     overrides: [
+	    "arcore",
+        "GooglePrintRecommendationService",
+        "GoogleFeedback",
+	    "Matlog",
+		"Gallery",
+		"Gallery2",
+        "Gallery3D",
+        "GalleryNew3D",
+		"Browser",
+		"Jelly",
+     ],
+     strip: {
+         none: true,
+     },
+     srcs: ["RemovePackages"],
+}

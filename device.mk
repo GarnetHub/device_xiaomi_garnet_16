@@ -208,6 +208,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# RemovePackages
+ PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Init
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti:64 \
@@ -345,10 +349,6 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_PACKAGES += \
     garnet_sku_properties
-
-# Remove packages
-PRODUCT_PACKAGES += \
-    RemovePackages
 
 # QMI
 PRODUCT_PACKAGES += \
