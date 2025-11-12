@@ -177,6 +177,7 @@ ro.egl.blobcache.multifile=true
 ro.egl.blobcache.multifile_limit=33554432
 debug.sf.enable_adpf_cpu_hint=true
 persist.mm.enable.prefetch=true
+debug.sf.hwc.min.duration=8400000
 persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.0
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.pineapple.api34
