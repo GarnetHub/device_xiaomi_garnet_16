@@ -2,6 +2,8 @@ cc_prebuilt_binary {
      name: "RemovePackages",
      overrides: [
 	    "arcore",
+        "PrintSpooler",
+        "BookmarkProvider",
         "GooglePrintRecommendationService",
         "GoogleFeedback",
 	    "MatLog",
